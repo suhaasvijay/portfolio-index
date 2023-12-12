@@ -5,6 +5,8 @@ import Head from 'next/head';
 
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import "../app/globals.css"
+
 
 export default class MyApp extends App {
   render() {
@@ -16,9 +18,9 @@ export default class MyApp extends App {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <title>Portfolio</title>
         </Head>
-        <Header />
+        {/* <Header /> */}
         <Component {...pages} />
-        <Footer />
+        {/* <Footer /> */}
       </>
 
     )
