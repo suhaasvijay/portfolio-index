@@ -5,9 +5,9 @@ const MyDocument = () => {
     <Html lang="en">
       <Head>
         <meta charSet="utf-8" />
-        <link rel="icon" type="image/png" href="/images/favicon.svg"></link>
+        <link rel="icon" type="image/svg" href="/src/app/icon.svg"></link>
       </Head>
-      <body>
+      <body className='bg-[#0D1117]'>
         <Main />
         <NextScript />
       </body>
